@@ -10,10 +10,16 @@ var people = [
 // person in the `people` array. Assign the returned array to a variable
 // called `peoplesAges`.
 // Type your solution immediately below this line:
-
-
-
-
+var peoplesAges = []
+var ages = people[i]
+function getAge (people){
+  var ages = people[i]
+  for (let i = 0; i > people.length; i++) {
+  peoplesAges.push(ages.age)
+  return peoplesAges
+}
+}
+map(people.getAge())
 // #2: Use the `filter` array method to create a new, filtered array containing only
 // persons from the `people` array who are older than 35. Assign the returned array
 // to a variable called `peopleOlderThan35`.
